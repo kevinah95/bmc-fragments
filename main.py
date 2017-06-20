@@ -2,6 +2,7 @@ import sys
 from sequence_generator import sequence_generator
 from repeat import repeat
 from palindrome import palindrome
+from shotgun import shotgun
 
 super_string = ""
 
@@ -31,7 +32,10 @@ while ans:
         else:
             print("Debe de ingresar la hilera base.")
     elif ans == "4":
-        print("\n Goodbye")
+        if super_string != "":
+            shotgun.base_menu_shotgun(super_string)
+        else:
+            print("Debe de ingresar la hilera base.")
     elif ans == "5":
         sys.exit()
     elif ans != "":

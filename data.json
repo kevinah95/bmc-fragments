@@ -1,0 +1,50 @@
+{
+    "base_seq": {
+        "seq_original": "",
+        "length_final": 0,
+        "mode": "USER|RAND|PROB",
+        "length_original": 0
+    },
+    "repeat": {
+        "errors": {
+            "possible_errors": {
+                "insertion": {
+                    "average_distance": 0,
+                    "selected": false
+                },
+                "deleted": {
+                    "average_distance": 0,
+                    "selected": false
+                },
+                "base_change": {
+                    "average_distance": 0,
+                    "selected": false
+                }
+            }
+        },
+        "distance": {
+            "a": {
+                "selected": false,
+                "distance": 0,
+                "fst_pos": 0
+            },
+            "b": {
+                "selected": false,
+                "average": 0
+            }
+        },
+        "source": "",
+        "reverse_orientation": {
+            "probability": 0
+        },
+        "times": {
+            "a": {
+                "selected": false,
+                "times": 0
+            },
+            "b": {
+                "selected": false
+            }
+        }
+    }
+}

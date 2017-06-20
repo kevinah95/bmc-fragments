@@ -1,0 +1,40 @@
+{
+    "distance": {
+        "a": {
+            "distance": 0,
+            "fst_pos": 0,
+            "selected": false
+        },
+        "b": {
+            "average": 5,
+            "selected": true
+        }
+    },
+    "errors": {
+        "base_change": {
+            "average_distance": 11,
+            "selected": true
+        },
+        "deleted": {
+            "average_distance": 10,
+            "selected": true
+        },
+        "insertion": {
+            "average_distance": 2,
+            "selected": true
+        }
+    },
+    "reverse_orientation": {
+        "probability": 0
+    },
+    "source": "XYZW",
+    "times": {
+        "a": {
+            "selected": false,
+            "times": 0
+        },
+        "b": {
+            "selected": true
+        }
+    }
+}
